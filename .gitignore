@@ -1,4 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+.idea
 
 # dependencies
 /node_modules
@@ -9,6 +10,8 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+
+database/migrations/*
 
 # testing
 /coverage
@@ -30,8 +33,10 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# 모든 .env 파일 제외
 .env*
+# 하지만 .env.example은 포함
+!.env.example
 
 # vercel
 .vercel
