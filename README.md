@@ -1,6 +1,7 @@
 ## Env
 + Next 15.2
 + React 19
++ postgres
 
 ## Getting Started
 
