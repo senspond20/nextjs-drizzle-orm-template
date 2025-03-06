@@ -30,7 +30,7 @@ DATABASE_URL=postgresql://test:test@localhost:5432/testdb
 ```
 npm run generate   # 마이그레이션 SQL 파일 생성
 npm run migrate    # 데이터베이스에 적용
-npm run sedd       # 데이터 베이스에 초기 데이터 Insert
+npm run seed       # 데이터 베이스에 초기 데이터 Insert
 ```
 
 ## Start
